@@ -24,6 +24,10 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
 
     }
 
@@ -56,6 +60,26 @@ border: 1px solid red;
     width: 50%;
 }
 
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
+  
+  .main-title {
+      font-family: 'Island' , sans-serif; 
+      font-size: 30px;
+      font-weight: 700;
+  }
+
+.section-subtitle {
+    font-family: 'Island' , sans-serif; 
+    font-size: 30px;
+    color: #829985;
+    padding-left: 100px;
+}
 
 .main {
 border: 1px solid red;
@@ -71,12 +95,32 @@ border: 1px solid red;
     width: 50%;
 }
 
-.section-profile{
+.section-profile {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+.section-profile-avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.section-item span {
+    color: #4d2323;
+    }
+
+    .pre {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #4d2323;
+        
+    }
 
 @media (max-width: 768px) {
     .section {
@@ -87,12 +131,22 @@ border: 1px solid red;
 border: 1px solid red;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rsslogo {
+    width: 50px;
+    height: 50px;
+}
+
 a {
     color: #829985;
     text-decoration: none;  
     transition: color 0.5s;
-}
+    }
 
 a:hover {
-    color: #4d2323;;
+    color: #4d2323;
 }
